@@ -77,7 +77,7 @@ int e1/0
 A2: creating primary and backup default route:
 config t
 ip route 0.0.0.0 0.0.0.0 192.168.1.130 1
-ip route 0.0.0.0 0.0.0.0 192.168.1.129  2
+ip route 0.0.0.0 0.0.0.0 192.168.1.129 2
 do sh ip route static
 p1:
 config t
